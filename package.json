@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "create": "node scripts/create-dapp.js"
+    "compile-abi": "node scripts/compile-contract.js",
+    "debug" : "node debug.js"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,6 @@
     "hardhat": "^2.22.6"
   },
   "bin": {
-    "viction-dapp-setup": "./index.js"
+    "create-viction-dapp": "./index.js"
   }
 }

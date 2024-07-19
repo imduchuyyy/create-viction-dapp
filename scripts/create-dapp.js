@@ -20,11 +20,10 @@ copyRecursiveSync(templateDir, projectDir);
 console.log("Installing dependencies...");
 execSync(`cd ${projectDir} && npm install`, { stdio: "inherit" });
 
-
-  // Delete the artifacts directory
-  const artifactsDir = path.resolve(__dirname, "../template/dapp/src/abi");
-  fs.rmdirSync(artifactsDir, { recursive: true });
-  console.log(`Artifacts directory deleted: ${artifactsDir}`);
+// Delete the artifacts directory
+const artifactsDir = path.resolve(__dirname, "../template/dapp/src/abi");
+fs.rmdirSync(artifactsDir, { recursive: true });
+console.log(`Artifacts directory deleted: ${artifactsDir}`);
 
 
 console.log("DApp creation complete.");
