@@ -1,0 +1,23 @@
+{
+  "name": "create-viction-dapp",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-abi": "node scripts/compile-contract.js",
+    "debug" : "node debug.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "commander": "^12.1.0",
+    "create-react-app": "^5.0.1",
+    "hardhat": "^2.22.6"
+  },
+  "bin": {
+    "create-viction-dapp": "./script/create-dapp.js"
+  }
+}

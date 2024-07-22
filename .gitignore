@@ -1,0 +1,6 @@
+/node_modules
+/my-dapp
+/cache
+.env
+
+*lock.json
