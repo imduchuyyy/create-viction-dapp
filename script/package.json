@@ -10,6 +10,6 @@
   "license": "ISC",
   "description": "",
   "bin": {
-    "create-viction-dapp": "./bin/create-viction-dapp.js"
+    "create-viction-dapp": "./create-viction-dapp.js"
   }
 }
