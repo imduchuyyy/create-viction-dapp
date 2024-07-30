@@ -11,6 +11,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@abstraction-hq/wallet-sdk": "^1.0.8",
     "dotenv": "^16.4.5",
     "next": "14.2.5",
     "react": "^18",
