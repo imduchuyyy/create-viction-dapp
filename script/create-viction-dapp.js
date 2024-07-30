@@ -47,6 +47,9 @@ async function main() {
     execSync('rm -rf ./.git', {
       stdio: 'inherit'
     });
+    execSync('rm -rf ./script', {
+      stdio: 'inherit'
+    });
     console.log('The installation is done, this is ready to use !');
 
   } catch (error) {
