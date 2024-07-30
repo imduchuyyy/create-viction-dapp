@@ -7,7 +7,7 @@ const fs = require("fs");
 if (process.argv.length < 3) {
   console.log("You have to provide a name to your app.");
   console.log("For example :");
-  console.log("    npx create-viction-dapp my-app");
+  console.log("    npx create-viction-dapp dapp-name");
   process.exit(1);
 }
 
@@ -19,7 +19,7 @@ const gitRepo = "https://github.com/viction-developers/create-viction-dapp";
 try {
   fs.mkdirSync(projectPath);
 } catch (err) {
-  if (err.code === "EEXIST") {
+  if (err.code === "EXIST") {
     console.log(
       `The file ${projectName} already exist in the current directory, please give it another name.`
     );

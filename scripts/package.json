@@ -1,6 +1,6 @@
 {
   "name": "create-viction-dapp",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/viction-developers/create-viction-dapp"
   },
-  "homepage": "https://github.com/viction-developers/create-viction-dapp/script#readme",
+  "homepage": "https://github.com/viction-developers/create-viction-dapp/tree/main/scripts#readme",
   "keywords": ["viction", "dapp", "cli", "blockchain"],
   "author": "@viction-developers",
   "license": "MIT",

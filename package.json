@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "build:contracts": "hardhat --tsconfig tsconfig.hardhat.json compile",
+    "test:contracts": "hardhat --tsconfig tsconfig.hardhat.json test",
     "start": "next start",
     "lint": "next lint"
   },
